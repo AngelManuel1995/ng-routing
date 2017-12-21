@@ -2,14 +2,17 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { NgStyleComponen } from './components/ng-style.component';
-import { CssComponent }    from './components/css.component';
+import { NgStyleComponen } from './components/ng-style/ng-style.component';
+import { CssComponent }    from './components/css/css.component';
+import { ClassesComponent } from './components/classes/classes.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     NgStyleComponen,
-    CssComponent
+    CssComponent,
+    ClassesComponent    
   ],
   imports: [
     BrowserModule
