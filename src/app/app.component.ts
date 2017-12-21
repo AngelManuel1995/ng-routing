@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  color:string = "#cccccc";
+  
+  constructor(){
+    console.log(this.color);
+  }
+
+  sColor(){
+    console.log(this.color);
+  }
+
 }

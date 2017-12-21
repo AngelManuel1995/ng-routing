@@ -3,6 +3,15 @@
   <h1>Demos <small>angular</small>  <i class="fa fa-1x fa-desktop"></i> </h1>  
   <hr>
   <!--<app-ng-style></app-ng-style>
-    <app-css></app-css> -->
-    <app-classes></app-classes>
+    <app-css></app-css> 
+    <app-classes></app-classes> -->
+    <h3 [appHighlighted]="color">
+      Hola Mundo !!!
+    </h3>
+
+  <div>
+    <p><strong><small>Choose color</small></strong></p>
+    <input type="color" [(ngModel)]="color" name="color"  [value]="color" />
+  </div>
+
 </div>
