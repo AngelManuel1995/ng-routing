@@ -13,6 +13,7 @@ import { DetailUserComponent }     from './components/user/detail-user.component
 import { EditUserComponent }       from './components/user/edit-user.component';
 import { NewUserComponent }        from './components/user/new-user.component';
 import { UserComponent }           from './components/user/user.component';
+import { NavbarComponent }         from './components/navbar/navbar.component'
 import { APP_ROUTING }             from './app.routes';
 
 
@@ -28,7 +29,8 @@ import { APP_ROUTING }             from './app.routes';
     DetailUserComponent,
     EditUserComponent,
     NewUserComponent,
-    UserComponent   
+    UserComponent,
+    NavbarComponent   
   ],
   imports: [
     BrowserModule,
