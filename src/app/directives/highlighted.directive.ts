@@ -3,7 +3,7 @@
 //Hacemos uso del elemento HostListener para generación de eventos.
 
 import { Directive, ElementRef, HostListener, Input } from '@angular/core';
-import { AppComponent } from '../../app/app.component';
+import { HomeComponent } from '../../app/components/home/home.component';
 
 @Directive({
 	selector:'[appHighlighted]'
@@ -12,7 +12,7 @@ import { AppComponent } from '../../app/app.component';
 export class HighlightedDirective {
     
 	constructor(private el:ElementRef, 
-							private _appComponent:AppComponent){
+							private _appComponent:HomeComponent){
 		console.log("Directiva inicializada");
 		//el.nativeElement.style.backgroundColor = "yellow";
 	}
