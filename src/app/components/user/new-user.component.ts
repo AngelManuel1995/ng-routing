@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { ActivatedRoute }	from '@angular/router';
+
 
 @Component({
 	selector:'app-new-user',
@@ -9,8 +11,10 @@ import { Component } from '@angular/core';
 
 export class NewUserComponent {
     
-	constructor(){
-
+	constructor(private _activatedRoute:ActivatedRoute){
+		this._activatedRoute.parent.params.subscribe(params => {
+			console.log(params);
+		});
 	}
 	
 }
