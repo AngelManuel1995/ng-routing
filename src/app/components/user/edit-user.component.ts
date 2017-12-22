@@ -2,7 +2,9 @@ import { Component } from '@angular/core';
 
 @Component({
 	selector:'app-edit-user',
-	template:``
+	template:`
+		<p>User edit works!!</p>
+	`
 })
 
 export class EditUserComponent {

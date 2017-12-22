@@ -2,7 +2,9 @@ import { Component } from '@angular/core';
 
 @Component({
 	selector:'app-new-user',
-	template:``
+	template:`
+		<p>User new works!!</p>
+	`
 })
 
 export class NewUserComponent {
